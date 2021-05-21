@@ -1,0 +1,54 @@
+LOGIN FORM CHECK
+
+Positive checks: 
+1) Checking for email and password input fields, registration and "Forgot password" buttons.
+2) Checking the display of the entered text in the forms
+3) Log in with your own mail and password
+4) Checking registration and "Forgot password" links
+
+
+Negative checks:
+1) Input a non-existent username and/or password
+2) In order, enter the values for verification in the login field:
+    - Numbers
+    - random short word without @
+    - @
+    - Null
+    - 0
+    - several chinese characters(or other characters from non-Latin script, such as Greek)
+    - Punctuation mark, or other non-letters character
+    - The first chapter of war and peace (or a very long text)
+    - Script injection
+    
+SIGN UP FORM CHECK    
+
+Positive checks:
+1) Checking for the presence of the following forms and links:
+    - First Name
+    - LAst name
+    - Login information(e-mail or phone number)
+    - Password
+    - Birthday
+    - Gender
+    - Terms of service
+    - Data Policy
+    - Cookies Policy
+    - Help pop-ups
+2) Checking the work of links and the display of the entered text in the forms, according to the list from paragraph 1
+3) Attempting to register using valid credentials
+
+
+Negative checks:
+1) Input the already used e-mail or number phone
+2) In order, enter the values for verification in the name field:
+    - Numbers
+    - @
+    - Null
+    - 0
+    - Punctuation mark, or other non-letters character
+    - The first chapter of Crime and punishment (or a very long text)
+    - Script injection
+3) 
+    
+    
+    
